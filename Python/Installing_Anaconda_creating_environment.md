@@ -5,17 +5,13 @@ Follow the instructions according to your Operating System (Windows, Mac, Linux 
 
 Open the Anaconda Prompt from your applications. 
 
-<img src="Figures/anaconda_prompt.jpg" alt="anaconda" style="width:400px;"/>
+<img src="Figures/anaconda_prompt.jpg" width="400"/>
 
 Then type: `conda create --name myenv`
 
-you will be asked: `proceed ([y]/n)?`
+you will be asked: `proceed ([y]/n)?` press *y* and it will create the environment called "myenv".
 
-press *y* and it will create the environment called "myenv".
-
-Now to switch to your Python environment, type: 
-
-`conda activate myenv`
+Now to switch to your Python environment, type: `conda activate myenv`
 
 To install Spyder: `conda install -c anaconda spyder`    
 To install Jupyter:  `conda install -c conda-forge jupyterlab `  
@@ -83,7 +79,7 @@ The idea is to isolate the Python environment on which your project relies. Ever
 ## Creating a virtual environment
 
 To create the said environment, open the application Anaconda Prompt:  
-<img src="Figures/anaconda_prompt.jpg" alt="anaconda" style="width:400px;"/>
+<img src="Figures/anaconda_prompt.jpg" width="400"/>
 
 Then type: 
 
@@ -101,7 +97,7 @@ Now to switch to your Python environment, type:
 
 Your environment name should appear in parenthesis in front of the path. That's how you know it is activated. Otherwise you will see (base). Be careful not to install packages on your base environment !
 
-![venv](Figures/venv.png)
+<img src="Figures/venv.png" width="400"/>
 
 To exit the environment type:
 
@@ -137,7 +133,7 @@ Then you can launch it from Anaconda prompt by simply typing:
 
 or from your apps (select the one corresponding to your current environment).
 
-<img src="Figures/spyder.jpg" alt="spyder" style="width:400px;"/>
+<img src="Figures/spyder.jpg" width="200"/>
 
 
 
@@ -169,7 +165,7 @@ plt.legend()
 ```
 To run the script press F5. Click on the "Plots" pane to see the plot:   
 
-<img src="Figures/show_spyder.png" alt="spyder_ex" style="width:800px;"/>
+<img src="Figures/show_spyder.png" width="800"/>
 
 
 ## Using Jupyter
@@ -188,7 +184,7 @@ Now launch Jupyter from the command line by simply typing:
 
 This page should open in your navigator: 
 
-<img src="Figures/jupyterlab.png" alt="lupyterlab" style="width:600px;"/>
+<img src="Figures/jupyterlab.png" width="600"/>
 
 And you can now create a Jupyter Notebook.  
 
